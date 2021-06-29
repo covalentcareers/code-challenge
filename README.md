@@ -54,7 +54,7 @@ Prototype one of the following full-stack projects:
 4. **Downtime detector**. Create a service that monitors URLs for downtime (any non-200 response). Graph downtime using a charting library and give the user the ability to subscribe to email or text message alerts ([Twilio API](https://www.twilio.com/docs/api/rest))
 
 
-## Writing a project README
+### Writing a project README
 
 Regardless of whether it's your own code, or our coding challenge, write your README as if it was for a production service. Include the following items:
 
