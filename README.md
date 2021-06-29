@@ -18,18 +18,6 @@ If you have existing code, please follow the following guidelines:
   * Is leveraging web technologies.
   * Is deployed and hosted somewhere.
 
-
-## Writing a project README
-
-Regardless of whether it's your own code, or our coding challenge, write your README as if it was for a production service. Include the following items:
-
-* Description of the problem and solution.
-* Whether the solution focuses on back-end, front-end, or if it's full-stack.
-* Any relevant installation or demo instructions, including usage examples.
-* The reasoning behind your technical choices, including architectural decisions.
-* Trade-offs you might have made, anything you left out, or what you might do differently if you were to spend additional time on the project.
-* Link to the hosted application (where applicable).
-
 ## How we review your code
 
 Your application will be reviewed by two engineers.
@@ -64,6 +52,18 @@ Prototype one of the following full-stack projects:
 3. **Real-time notification dispatcher**. Create a socket-powered application that allows a centralized server to push real-time notifications to any clients that are visiting a certain URL. 
 
 4. **Downtime detector**. Create a service that monitors URLs for downtime (any non-200 response). Graph downtime using a charting library and give the user the ability to subscribe to email or text message alerts ([Twilio API](https://www.twilio.com/docs/api/rest))
+
+
+## Writing a project README
+
+Regardless of whether it's your own code, or our coding challenge, write your README as if it was for a production service. Include the following items:
+
+* Description of the problem and solution.
+* Whether the solution focuses on back-end, front-end, or if it's full-stack.
+* Any relevant installation or demo instructions, including usage examples.
+* The reasoning behind your technical choices, including architectural decisions.
+* Trade-offs you might have made, anything you left out, or what you might do differently if you were to spend additional time on the project.
+* Link to the hosted application (where applicable).
 
 
 ### Technical spec
