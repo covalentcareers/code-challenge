@@ -82,6 +82,6 @@ You are free to use any web framework. If you choose to use a framework that res
 
 ### Front-end
 
-The front-end should ideally be a single page app with a single `index.html` linking to external JS/CSS/etc. You may take this opportunity to demonstrate your React and HTML/CSS knowledge.
+The front-end can be a single page app, or it may leverage static templates. The choice is up to you, but please justify your decision in the README!
 
 
