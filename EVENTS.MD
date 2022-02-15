@@ -15,7 +15,7 @@ Prototype one of the following full-stack projects:
 * **Functionality**: Does the application function as expected? Are core features bug-free?
 * **Architecture**: Is there a reasonable separation between frontend and backend?
 * **Code quality**: Is the code simple, easy to understand, and maintainable?  Are there any code smells or other red flags? Is the coding style consistent with the language's guidelines? Is it consistent throughout the codebase?
-* * **Documentation**: Is code well-commented? Does the README include all relevant information? See [Writing the project README](#writing-the-project-readme)
+* **Documentation**: Is code well-commented? Does the README include all relevant information? See [Writing the project README](#writing-the-project-readme)
 * **UX**: Is the interface understandable and pleasing to use? Is the UI mobile-responsive? Is the API intuitive?
 
 ### Writing the project README
