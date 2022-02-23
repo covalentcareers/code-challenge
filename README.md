@@ -1,87 +1,43 @@
 
 # CovalentCreative Coding Challenge
 
-Thank you so much for your interest in being part of the CovalentCreative engineering team!
+Thanks for your interest in being part of the CovalentCreative engineering team! This challenge is designed to showcase your approach to web development projects, with an emphasis on architecture, code quality, UI/UX, and documentation. Good luck!
 
-This coding challenge is optional. If you have existing code that you're proud of (and can share with us), you can use it in lieu of this challenge (see the "Using existing code" section below).
+## Functional specification
 
-Compensation for this challenge is only provided if you are writing new code.
+Create a stripped down clone of one of your favorite web apps (e.g. Reddit, Twitter, Instagram, etc). This does not have to be a true 1:1 clone with full reproduction of all functionality, but it should include some of the core features of the platform (you decide what’s core). 
 
-## Using existing code
+For example, a Twitter clone should be able to tweet and follow other users. A Reddit clone can create and upvote/downvote posts. An Instagram clone can post and search hashtags.
 
-If you have existing code, please follow the following guidelines:
+## Technical specification
 
-* Include a link to the hosted repository (e.g. Github, Bitbucket).
-* The repo should include a README that follows the principles described below. In particular, please make sure to include high-level explanation about what the code is doing.
-* Ideally, the code you're providing:
-  * Has been written by you alone. If not, please tell us which part you wrote and are most proud of in the README.
-  * Is leveraging web technologies.
-  * Is deployed and hosted somewhere.
+Split the application architecture between a database, a Django backend, and a React frontend that consumes the data.
 
-## How we review your code
+## UI/UX
 
-Your application will be reviewed by two engineers.
+Use Bootstrap or a similar CSS framework to style the user interface. Ensure the templates are mobile-responsive. 
 
-The goal of this code sample is to help us identify what you consider production-ready code. You should consider this code as it were ready for final review with your colleague, i.e. this would be the last step before deploying to production.
+UX is totally up to you!
 
-The aspects of your code we will assess include:
+## Code review heuristics
 
-* **Architecture**: How clean is the separation between the front-end and the back-end? Is the architecture simple and elegant while solving technical problems?
-* **Clarity**: Does the README clearly and concisely explain the problem and solution? Are technical tradeoffs explained?
-* **Correctness**: Does the application do what was asked? If there is anything missing, does the README explain why it is missing?
-* **Code quality**: Is the code simple, easy to understand, and maintainable?  Are there any code smells or other red flags? Does object-oriented code follow principles such as the single responsibility principle? Is the coding style consistent with the language's guidelines? Is it consistent throughout the codebase?
-* **Security**: Are there any obvious vulnerabilities?
-* **Performance**: Are there any obvious performance issues?
-* **UX**: Is the interface understandable and pleasing to use? Is it UI mobile-responsive? Is the API intuitive?
-* **Technical choices**: Do choices of libraries, databases, architecture, etc. seem appropriate for the chosen application?
+* **Functionality**: Does the application function as expected? Are core features bug-free? Are obvious edge cases handled?
+* **Architecture**: Is there a reasonable separation between frontend and backend? Does the project structure make sense? Do various components interface with each other in a clean, modular way?
+* **Code quality**: Is the code simple and easy to understand?  Are there any code smells or other red flags? Is the coding style consistent with the language's guidelines? Is it consistent throughout the codebase?
+* **Documentation**: Is code well-commented? Does the README include all relevant information? See [Writing the project README](#writing-the-project-readme)
+* **UX**: Is the interface understandable and pleasing to use? Is the UI mobile-responsive? Is the API intuitive?
 
-## Coding challenge
+## Writing the project README
 
-If you don't have existing code to share, you can work on the full-stack coding challenge described below. Flat-rate compensation will be provided if you choose this option.
+At a minimum, your README should include:
 
-Please organize, design, document, and deploy your code as if it were going into production, then send us a link to the hosted repository.
+* Instructions for local project setup
+* A list of third party libraries you used, and what they handle
+* Links to any courses, blog posts, or videos you referenced
+* Anything else you think a well-documented project should include
 
-### Functional spec
+## Deliverables
 
-Prototype one of the following full-stack projects:
-
-1. **Basic e-commerce flow:** Create a basic inventory management backend for product data entry. Allow end users to browse the product list, add products to a cart, and "check out" (note: the cart doesn't actually have to process any payments - you can stub this functionality).
-
-2. **Food truck map:** Create a service that tells the user what types of food trucks are closest to their current location, visualized on a map ([food truck data set](https://data.sfgov.org/Economy-and-Community/Mobile-Food-Facility-Permit/rqzj-sfat)). Feel free to use this basic map+geolocation concept with a different data set.
-
-3. **Real-time notification dispatcher**. Create a socket-powered application that allows a centralized server to push real-time notifications to any clients that are visiting a certain URL. 
-
-4. **Downtime detector**. Create a service that monitors URLs for downtime (any non-200 response). Graph downtime using a charting library and give the user the ability to subscribe to email or text message alerts ([Twilio API](https://www.twilio.com/docs/api/rest))
-
-
-### Writing a project README
-
-Regardless of whether it's your own code, or our coding challenge, write your README as if it was for a production service. Include the following items:
-
-* Description of the problem and solution.
-* Whether the solution focuses on back-end, front-end, or if it's full-stack.
-* Any relevant installation or demo instructions, including usage examples.
-* The reasoning behind your technical choices, including architectural decisions.
-* Trade-offs you might have made, anything you left out, or what you might do differently if you were to spend additional time on the project.
-* Link to the hosted application (where applicable).
-
-
-### Technical spec
-
-The architecture will be split between a back-end and a web front-end, for instance providing a REST API consumed by a client application. Feel free to use any preferred technologies provided that the general client/service architecture is respected.
-
-Our standard stack is Django/React.
-
-### UI/UX
-
-The UI/UX is totally up to you. If you want, get creative and add additional features the user might find useful!
-
-### Back-end
-
-You are free to use any web framework. If you choose to use a framework that results in boilerplate code in the repository, please detail in your README which code was written by you (as opposed to generated code).
-
-### Front-end
-
-The front-end can be a single page app, or it may leverage static templates. The choice is up to you, but please justify your decision in the README!
+Send us a link to your repo!
 
 
